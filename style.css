@@ -1,0 +1,49 @@
+
+
+#logo img{
+    display: flex;
+    background-color: white;
+    justify-content: left;
+    align-content: center;
+    float: 50px;
+    width: 50px;
+}
+
+#navBar {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+#sections {
+    display: flex;
+    justify-content: flex-end;
+}
+a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#imgSlides img{
+    height: 200px;
+    width: 100%;
+}
+
+#info {
+    display: flex;
+}
+#contactInfo {
+    text-align: left;
+    width: 300px;
+}
+
+#profile img {
+    width: 50px;
+    float: center;
+}
+
+#title {
+    text-align: center;
+    font-weight: 1000;
+}
