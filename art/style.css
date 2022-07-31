@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Mouse+Memoirs&family=Rajdhani:wght@300&display=swap');
+
+#logo {
+    width: 150px;
+}
+
+header {
+    background-color: rgb(10, 54, 83);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    padding: 0%;
+    margin: 0%;
+}
+
+header li {
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+header li:hover {
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(59, 142, 197);
+}
+
+a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#title_container p {
+    font-family: "Mochiy Pop One";
+    text-align: center;
+    font-size: 30px;
+}
+#img_container {
+    float: left;
+    display: flex;
+}
+
+#img_container p {
+    font-family: "Mochiy Pop One";
+    align-self: center;
+}
+
+#instagram_image{
+    width: 75px;
+}
+
+.type p{
+    font-family: "Mouse Memoirs";
+    font-size: 30px;
+}
+
+#drawing_image_container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(189, 216, 247);
+    border: 2px dotted black;
+    display: flex;
+    justify-content: space-between;
+}
+#drawing_image_container img{
+    height: 800px;
+}
+
+#digital {
+    text-align: center;
+    color: rgb(31, 31, 31);
+    background-color: rgb(59, 142, 197);
+    border-radius: 20px;
+    border: 2px solid black
+}
